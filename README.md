@@ -4,11 +4,11 @@
 As was commented on the TechTalk presentation, this repository shows as an example how you can build your own Countinuous Delivery platform by using __[drone-server](https://github.com/drone/drone)__ and __[gogs](gogs.io)__ an alternative to Jenkins,spinnaker among others CI/CD platforms. 100% Opensource, written in go and container native! :D  
 
 
-![alt text](https://github.com/zpol/meetup-demo/raw/master/img/gogs.png "Gogs")
+![alt text](https://github.com/edrans/meetup-bcn-drone-gogs/blob/master/img/gogs.png "Gogs")
 
-![alt text](https://github.com/zpol/meetup-demo/raw/master/img/drone.png "Drone-server")
+![alt text](https://github.com/edrans/meetup-bcn-drone-gogs/blob/master/img/drone.png "Drone-server")
 
-![alt text](https://github.com/zpol/meetup-demo/raw/master/img/drone2.png "Drone-server")
+![alt text](https://github.com/edrans/meetup-bcn-drone-gogs/blob/master/img/drone2.png "Drone-server")
 
 
 
@@ -23,7 +23,7 @@ To run this DEMO you just need [Docker Engine](https://docs.docker.com/engine/) 
 To run the demo just download this repo: 
 
 ```
-git clone https://github.com/zpol/meetup-demo
+git clone git@github.com:edrans/meetup-bcn-drone-gogs.git
 ```
 Then type: 
 
@@ -31,7 +31,7 @@ Then type:
 cd meetup-demo && docker-compose up 
 ```
 
-This will start all the stack by using the parameters set into the [docker-compose.yml](https://github.com/zpol/meetup-demo/blob/master/docker-compose.yml) file 
+This will start all the stack by using the parameters set into the [docker-compose.yml](https://github.com/edrans/meetup-bcn-drone-gogs/blob/master/docker-compose.yml) file 
 
 When everything is up and running you will have: 
 
@@ -60,7 +60,7 @@ __Remote developemnt environment:__ (i.e.: AWS, Google Cloud, Azure,...)
 There are several ways to deploy a production Continuous Delivery platform by using this demo: ECR; ECS, EC2, EKS,... 
 
 To simplify you can start by running an EC2 instance and install Docker Engine and Docker Compose.
-If you don't want to install it manually there's also a Launch configuration just ready to use [here](https://github.com/zpol/meetup-demo/blob/master/examples/EC2_Launch_Configuration.txt)
+If you don't want to install it manually there's also a Launch configuration just ready to use [here](https://github.com/edrans/meetup-bcn-drone-gogs/blob/master/examples/EC2_Launch_Configuration.txt)
 
 If you want more, (resilience, fault tolerancy, hight availability and so on...) the you should consider launch this stack in a more complex way.
 
